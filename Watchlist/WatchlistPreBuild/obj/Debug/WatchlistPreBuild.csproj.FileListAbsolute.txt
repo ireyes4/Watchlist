@@ -1,0 +1,5 @@
+C:\Users\uir040\Documents\GitHub\Forks\WatchlistService\WatchlistPreBuild\bin\Debug\WatchlistPreBuild.dll
+C:\Users\uir040\Documents\GitHub\Forks\WatchlistService\WatchlistPreBuild\bin\Debug\WatchlistPreBuild.pdb
+C:\Users\uir040\Documents\GitHub\Forks\WatchlistService\WatchlistPreBuild\obj\Debug\WatchlistPreBuild.csprojResolveAssemblyReference.cache
+C:\Users\uir040\Documents\GitHub\Forks\WatchlistService\WatchlistPreBuild\obj\Debug\WatchlistPreBuild.dll
+C:\Users\uir040\Documents\GitHub\Forks\WatchlistService\WatchlistPreBuild\obj\Debug\WatchlistPreBuild.pdb

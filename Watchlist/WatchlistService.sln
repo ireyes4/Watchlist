@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WatchlistService", "WatchlistService\WatchlistService.csproj", "{3D1F0E42-1200-4DBE-947C-D08C2C9326AD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{803BFADE-7EDD-4DB6-83FD-F245D9A3D22B} = {803BFADE-7EDD-4DB6-83FD-F245D9A3D22B}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WatchlistService.Tests", "WatchlistService.Tests\WatchlistService.Tests.csproj", "{7F7A4091-56E6-4FEC-AC2C-D5E0C96FEFCB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{803BFADE-7EDD-4DB6-83FD-F245D9A3D22B} = {803BFADE-7EDD-4DB6-83FD-F245D9A3D22B}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WatchlistService.DataAccess", "WatchlistService.RDS.DataAccess\WatchlistService.DataAccess.csproj", "{ED6CD829-E081-48AC-8D07-62387CA90853}"
+	ProjectSection(ProjectDependencies) = postProject
+		{803BFADE-7EDD-4DB6-83FD-F245D9A3D22B} = {803BFADE-7EDD-4DB6-83FD-F245D9A3D22B}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WatchlistService.Definitions", "WatchlistService.Definitions\WatchlistService.Definitions.csproj", "{C72FA23F-1938-436D-A659-58F19E536B65}"
+	ProjectSection(ProjectDependencies) = postProject
+		{803BFADE-7EDD-4DB6-83FD-F245D9A3D22B} = {803BFADE-7EDD-4DB6-83FD-F245D9A3D22B}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WatchlistService.ExternalServices", "WatchlistService.ExternalServices\WatchlistService.ExternalServices.csproj", "{0EFA6A42-264C-47AE-9FF8-64CEC1E856F8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{803BFADE-7EDD-4DB6-83FD-F245D9A3D22B} = {803BFADE-7EDD-4DB6-83FD-F245D9A3D22B}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WatchlistPreBuild", "WatchlistPreBuild\WatchlistPreBuild.csproj", "{803BFADE-7EDD-4DB6-83FD-F245D9A3D22B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D1F0E42-1200-4DBE-947C-D08C2C9326AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D1F0E42-1200-4DBE-947C-D08C2C9326AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D1F0E42-1200-4DBE-947C-D08C2C9326AD}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3D1F0E42-1200-4DBE-947C-D08C2C9326AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D1F0E42-1200-4DBE-947C-D08C2C9326AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F7A4091-56E6-4FEC-AC2C-D5E0C96FEFCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F7A4091-56E6-4FEC-AC2C-D5E0C96FEFCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F7A4091-56E6-4FEC-AC2C-D5E0C96FEFCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F7A4091-56E6-4FEC-AC2C-D5E0C96FEFCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED6CD829-E081-48AC-8D07-62387CA90853}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED6CD829-E081-48AC-8D07-62387CA90853}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED6CD829-E081-48AC-8D07-62387CA90853}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED6CD829-E081-48AC-8D07-62387CA90853}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C72FA23F-1938-436D-A659-58F19E536B65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C72FA23F-1938-436D-A659-58F19E536B65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C72FA23F-1938-436D-A659-58F19E536B65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C72FA23F-1938-436D-A659-58F19E536B65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EFA6A42-264C-47AE-9FF8-64CEC1E856F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EFA6A42-264C-47AE-9FF8-64CEC1E856F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EFA6A42-264C-47AE-9FF8-64CEC1E856F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EFA6A42-264C-47AE-9FF8-64CEC1E856F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{803BFADE-7EDD-4DB6-83FD-F245D9A3D22B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{803BFADE-7EDD-4DB6-83FD-F245D9A3D22B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{803BFADE-7EDD-4DB6-83FD-F245D9A3D22B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{803BFADE-7EDD-4DB6-83FD-F245D9A3D22B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

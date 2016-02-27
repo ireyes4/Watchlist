@@ -1,0 +1,64 @@
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+
+# Windows shortcuts
+*.lnk
+
+# =========================
+# Operating System Files
+# =========================
+
+# OSX
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+/.vs
+/bin
+/obj
+/packages
+/WatchlistService/bin
+/WatchlistService/obj/Debug
+/WatchlistService.Definitions/bin/Debug
+/WatchlistService.Definitions/obj/Debug
+/WatchlistService.ExternalServices/bin/Debug
+/WatchlistService.ExternalServices/obj/Debug
+/WatchlistService.RDS.DataAccess/bin/Debug
+/WatchlistService.RDS.DataAccess/obj/Debug
+/WatchlistService.Tests/bin/Debug/ExternalLibraries
+/WatchlistService.Tests/bin/Debug
+/WatchlistService.Tests/obj/Debug
+*.dll
